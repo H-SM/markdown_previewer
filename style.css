@@ -21,7 +21,7 @@ body{
     color: white;
 }
 .textarea{
-    width: 70%;
+    width: 55%;
     font-size: 13px;
     outline: none;
     background-color: #091529;
@@ -50,12 +50,14 @@ body{
     padding: 1em;
     border-radius: 6px;
     border: 1px solid #50ceb0;
-    transition: box-shadow .7s ease-in-out, border .2s ease-in-out;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#preview p{
+    color: #bcc3d8;
 }
 #preview code{
     background-color: #344c76;
