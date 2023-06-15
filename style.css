@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+    margin: 0;
+    font-size: 14px;
+    background-color: #0A192F;
+    color: #64ffda;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.font-header{
+    font-family: 'sf mono', 'fira code', 'fira mono', 'roboto mono', monospace;
+    
+}
+body{
+    background-color: #0A192F;
+    scroll-behavior: smooth;
+    color: white;
+}
+.textarea{
+    width: 70%;
+    font-size: 13px;
+    outline: none;
+    background-color: #091529;
+    color: #bcc3d8;
+    padding: 1em;
+    border-radius: 6px;
+    border: 1px solid #50ceb0;
+    transition: box-shadow .7s ease-in-out, border .2s ease-in-out;
+}
+.textarea:after{
+    border: 1px solid #50ceb0;
+}
+.textarea:hover{
+    border: 1px solid #50ceb0;
+    background-color: #081325;
+    box-shadow: 0 0 25px #50ceb0;
+}
+#preview{
+    /* padding : 40px; */
+    text-align: left;
+    width: 70%;
+    font-size: 13px;
+    outline: none;
+    /* background-color: #091529; */
+    color: #bcc3d8;
+    padding: 1em;
+    border-radius: 6px;
+    border: 1px solid #50ceb0;
+    transition: box-shadow .7s ease-in-out, border .2s ease-in-out;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#preview code{
+    background-color: #344c76;
+    padding: 5px 0px;
+    font-size: 12px;
+    color: #e1e7f8;
+}
+#preview pre{
+    background-color: #344c76;
+    padding: 10px;
+    color: #bcc3d8;
+}
